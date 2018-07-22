@@ -1,89 +1,206 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!--
+<link rel="stylesheet" href="css/flexbox.css">
+-->
 </head>
+
 <body>
+  <header class="main-header">
+    <img class="object-fit_cover" src="img/architecture-bridge-buildings-2.jpg" alt="Cityscape" style="width:100%;">
+    <div class="top-left">Community Resource Guide
+    </div>
+  </header>
 
-<h1>Community Resource Guide</h1>
+  <button class="accordion">About us (click to expand)</button>
+  <div class="panel">
 
-<button class="accordion">About us</button>
-<div class="panel">
-  
-    <h2>Spoke as as other again ye</h2>
+    <h2>Caring for Our Community</h2>
 
-    <p>Impossible considered invitation him men instrument saw celebrated unpleasant. Put rest and must set kind next many near nay. He exquisite continued explained middleton am. Voice hours young woody has she think equal. Estate moment he at on wonder at season little. Six garden result summer set family esteem nay estate. End admiration mrs unreserved discovered comparison especially invitation.</p>
-    
-    <p>Allow miles wound place the leave had. To sitting subject no improve studied limited. Ye indulgence unreserved connection alteration appearance my an astonished. Up as seen sent make he they of. Her raising and himself pasture believe females. Fancy she stuff after aware merit small his. Charmed esteems luckily age out.</p>
-    
-    <p>Inhabiting discretion the her dispatched decisively boisterous joy. So form were wish open is able of mile of. Waiting express if prevent it we an musical. Especially reasonable travelling she son. Resources resembled forfeited no to zealously. Has procured daughter how friendly followed repeated who surprise. Great asked oh under on voice downs. Law together prospect kindness securing six. Learning why get hastened smallest cheerful.</p>
-    
-    <p>Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer wound of. Called square an in afraid direct. Resolution diminution conviction so mr at unpleasing simplicity no. No it as breakfast up conveying earnestly immediate principle. Him son disposed produced humoured overcame she bachelor improved. Studied however out wishing but inhabit fortune windows.</p>
+    <p>Our organization provides a clearing house for community members to find the information and services as the need arises.</p>
 
+    <p>This electronic guide will provide you a handy go-to for the most used services, and can be accessed on a computer or
+      mobile phone.</p>
 
-  
-</div>
-
-<button class="accordion">Food</button>
-<div class="panel">
-  <p>
-      <table cellpadding="1" cellspacing="1">
-          <tr>
-            <th>Org</th>
-            <th>Contact</th>
-            <th>Phone</th>
-            <th>Address</th>
-            <th>City</th>
-            <th>Zip</th>
-            <th>Email</th>
-          </tr>
-          <tr>
-            <td>Turpis Non Corporation</td>
-            <td>Keelie Campos</td>
-            <td>1-401-737-8520</td>
-            <td>P.O. Box 959, 6702 Sociis Rd.</td>
-            <td>Notre-Dame-du-Nord</td>
-            <td>58198</td>
-            <td>sed@Donec.co.uk</td>
-          </tr>
-          <tr>
-            <td>Dictum Eleifend LLC</td>
-            <td>Mari Harper</td>
-            <td>1-446-979-9277</td>
-            <td>742-8747 Leo. Ave</td>
-            <td>Ucluelet</td>
-            <td>71210</td>
-            <td>molestie@lacus.ca</td>
-          </tr>  
-    </table>
-  
-  </p>
-</div>
-
-<button class="accordion">Housing</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-
-<button class="accordion">Medical</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-
-<button class="accordion">Employment</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-
-<button class="accordion">Government Services</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
+    <p>If you need a resource that isn't listed, please email
+      <a href="mailto:person@example.com">person@example.com</a>, or phone 502-555-1212.</p>
 
 
-<script src="js/app.js"></script>
+  </div>
+
+  <button class="accordion">Food</button>
+  <div class="panel">
+    <div class="row">
+      <div class="primary col">
+        <ul>
+          <li>Commodo Ltd</li>
+          <li>P.O. Box 778, 905 Donec Street</li>
+          <li>Ainsley York</li>
+          <li>1-287-517-2475</li>
+          <li>condimentum.eget@liberolacusvarius.edu</li>
+        </ul>
+        <hr>
+      </div>
+      <!--/.primary-->
+
+      <div class="secondary col">
+        <ul>
+          <li>Ligula Ltd</li>
+          <li>159-9197 Lorem, St.</li>
+          <li>Uta Benson</li>
+          <li>1-415-452-7870</li>
+          <li>elit.pharetra.ut@sodalesMauris.ca</li>
+        </ul>
+        <hr>
+      </div>
+      <!--/.secondary-->
+    </div>
+
+  </div>
+
+  <button class="accordion">Housing</button>
+  <div class="panel">
+    <div class="row">
+      <div class="primary col">
+        <ul>
+          <li>Aenean LLP</li>
+          <li>421-2417 Erat Rd.</li>
+          <li>Imani Fischer</li>
+          <li>1-508-691-3349</li>
+          <li>nec.malesuada.ut@velarcu.org</li>
+        </ul>
+        <hr>
+        <ul>
+          <li>Id Ante PC</li>
+          <li>P.O. Box 531, 994 Ullamcorper Street</li>
+          <li>Sophia Myers</li>
+          <li>1-113-522-7142</li>
+          <li>Sed.dictum.Proin@vitaeeratVivamus.net</li>
+        </ul>
+        <hr>        
+      </div>
+      <!--/.primary-->
+
+      <div class="secondary col">
+        <ul>
+          <li>Pharetra Foundation</li>
+          <li>1157 Magna St.</li>
+          <li>Candace Park</li>
+          <li>1-212-982-5079</li>
+          <li>augue.porttitor@laciniaorci.org</li>
+        </ul>
+        <hr>
+
+      </div>
+      <!--/.secondary-->
+    </div>
+  </div>
+
+  <button class="accordion">Medical</button>
+  <div class="panel">
+    <div class="row">
+      <div class="primary col">
+        <ul>
+          <li>Convallis Associates</li>
+          <li>7977 Posuere, St.</li>
+          <li>Vielka Martinez</li>
+          <li>1-698-768-7368</li>
+          <li>risus.varius@libero.com</li>
+        </ul>
+        <hr>
+      </div>
+      <!--/.primary-->
+
+      <div class="secondary col">
+        <ul>
+          <li>Sodales Elit Erat LLP</li>
+          <li>Ap #695-2270 Iaculis Rd.</li>
+          <li>Hedwig Cardenas</li>
+          <li>1-521-911-9691</li>
+          <li>est@fermentumrisus.net</li>
+
+        </ul>
+        <hr>
+
+      </div>
+      <!--/.secondary-->
+    </div>
+  </div>
+
+  <button class="accordion">Employment</button>
+  <div class="panel">
+    <div class="row">
+      <div class="primary col">
+        <ul>
+          <li>Rutrum Fusce Institute</li>
+          <li>7170 Arcu. Avenue</li>
+          <li>Juliet Griffith</li>
+          <li>1-487-695-2444</li>
+          <li>Integer.vitae@venenatisamagna.edu</li>
+
+        </ul>
+        <hr>
+
+      </div>
+      <!--/.primary-->
+
+      <div class="secondary col">
+        <ul>
+          <li>A Odio LLC</li>
+          <li>5782 Dis Rd.</li>
+          <li>Xena Morse</li>
+          <li>1-293-922-8231</li>
+          <li>enim@eu.org</li>
+        </ul>
+        <hr>
+
+      </div>
+      <!--/.secondary-->
+    </div>
+  </div>
+
+  <button class="accordion">Government Services</button>
+  <div class="panel">
+    <div class="row">
+      <div class="primary col">
+        <ul>
+          <li>Cras Sed Institute</li>
+          <li>P.O. Box 824, 6420 Aliquam St.</li>
+          <li>Portia Cannon</li>
+          <li>1-510-610-3957</li>
+          <li>vestibulum@magnisdis.net</li>
+
+        </ul>
+        <hr>
+
+      </div>
+      <!--/.primary-->
+
+      <div class="secondary col">
+        <ul>
+          <li>Nec Luctus PC</li>
+          <li>Ap #580-9238 Consequat, Rd.</li>
+          <li>Anika Beach</li>
+          <li>1-642-290-9423</li>
+          <li>dictum@euismodestarcu.org</li>
+
+
+        </ul>
+        <hr>
+
+      </div>
+      <!--/.secondary-->
+    </div>
+  </div>
+
+
+  <script src="js/app.js"></script>
 
 </body>
-</html>
 
+</html>

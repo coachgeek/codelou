@@ -12,11 +12,10 @@ This is a generic community resource guide, created as a project for Code Louisv
 ```
 The class(es) I created are:
 
-1. class name ex( .main-info-section )
-.. what class does, ex( adds padding & changes background color of .main-info-section )
+1. .accordion - styling for the accordion control created in javascript.
+2. .panel - styling for the data section under the accordion.
 
-2.
-
+3. flexbox
 ```
 
 
@@ -25,7 +24,6 @@ The class(es) I created are:
 ```
 The javascript functions I created are:
 
-1. function name ex( animate() )
-.. what function does ex( animate() is used to move the elements in the info div across the screen)
-
+1. An accordion control- expands and contracts contacts when clicked. 
+This is triggered by the .accordion style.
 ```
