@@ -1,6 +1,6 @@
 html {
     color: #222;
-    font-size: 1em;
+    font-size: 10px;
     line-height: 1.4;
     box-sizing: border-box;
   }
@@ -8,15 +8,18 @@ html {
 
 body {
     font-family: Helvetica, Helvetica Neue, Arial;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 26px;
 }
+ul {
+    list-style-type: none;
+  }
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
     background-color: #CB8F34;
     color: #eee8e8;
     cursor: pointer;
-    padding: 18px;
+    padding: 5 18px;
     width: 100%;
     text-align: left;
     border: none;
@@ -37,4 +40,51 @@ body {
     background-color: white;
     display: none;
     overflow: hidden;
+}
+
+/* ---- Layout Containers ---- */
+
+.main-header {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 30px;
+}
+
+.main-footer {
+	text-align: center;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 50px;
+    left: 16px;
+}
+
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+@media (min-width: 769px) {
+
+	.main-header,
+	.main-nav,
+	.row {
+		width: 100%;
+        font-size: 20px;
+        background-color: white;
+        display: flex;
+	}
+	.main-header {
+
+		flex-direction : column;
+		align-items: center;
+        font-size: 55px;
+    }
+
+	.col {
+		flex: 1;
+	}
 }
